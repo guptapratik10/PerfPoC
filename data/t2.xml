@@ -1,0 +1,71 @@
+<RepLookupResponse>
+    <RepLookupResult>
+              <Rs>                    
+            <M>zensar.com</M>
+            <C>PHSH:005:1:1</C>
+            <R>0:1</R>
+            <L>10080</L>
+            <S>0</S>
+        </Rs>      <Rs>                    
+            <M>192.168.43.147</M>
+            <C>PHSH:005:1:1</C>
+            <R>1:0</R>
+            <L>10080</L>
+            <S>0</S>
+        </Rs>      <Rs>                    
+            <M>vidtomp3.com</M>
+            <C>MALW:090:1:1</C>
+            <R>1:1</R>
+            <L>259200</L>
+            <S>0</S>
+        </Rs>      <Rs>                    
+            <M>www.wanyx.com/game</M>
+            <C>MALW:090:0:1</C>
+            <R>1:1</R>
+            <L>259200</L>
+            <S>0</S>
+        </Rs>      <Rs>                    
+            <M>wanyx.com/game</M>
+            <C>MALW:090:0:1</C>
+            <R>1:1</R>
+            <L>259200</L>
+            <S>0</S>
+        </Rs>
+    </RepLookupResult>
+    <Y>100</Y>
+    <T>A9E31E13-E624-111E-033F-F4A4930015D4</T>
+    <E>0</E>
+</RepLookupResponse>   
+            <M>zensar.com</M>
+            <C>PHSH:005:1:1</C>
+            <R>0:1</R>
+            <L>10080</L>
+            <S>0</S>
+        </Rs>      <Rs>                    
+            <M>192.168.43.147</M>
+            <C>PHSH:005:1:1</C>
+            <R>1:0</R>
+            <L>10080</L>
+            <S>0</S>
+        </Rs>      <Rs>                    
+            <M>vidtomp3.com</M>
+            <C>MALW:090:1:1</C>
+            <R>1:1</R>
+            <L>259200</L>
+            <S>0</S>
+        </Rs>      <Rs>                    
+            <M>www.wanyx.com/game</M>
+            <C>MALW:090:0:1</C>
+            <R>1:1</R>
+            <L>259200</L>
+            <S>0</S>
+        </Rs>      <Rs>                    
+            <M>wanyx.com/game</M>
+            <C>MALW:090:0:1</C>
+            <R>1:1</R>
+            <L>259200</L>
+            <S>0</S>
+        </Rs>
+    </RepLookupResult>
+    <Y>100</Y>
+    

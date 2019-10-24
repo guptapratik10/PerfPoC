@@ -1,0 +1,133 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+<html>
+	<head>
+	<title>Zensar Technologies - ZenIS Applications - Login</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
+	 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="description" content="ZenIS Applications">
+    <meta name="author" content="Zensar Technologies">
+
+	
+	    <link rel="icon" href="favicon/favicon.ico;jsessionid=AF03156AE2CB13ABD627536816DA39DE" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" href="/ZenIs/css/style.css;jsessionid=AF03156AE2CB13ABD627536816DA39DE" />
+	</head>
+	<body>
+
+
+<div class="page-wrap login-con">
+<div id="header">
+<div class="topbar"></div>
+<div class="inner"> 
+<div class="logo"><a href="#"><img src="images/zensar-logo.png" alt="Zensar logo"></a></div>
+</div>
+</div>
+<h1><span class="welcome">Welcome</span> to your one time login for all Zensar applications</h1>
+<div class="clearfix20"></div>
+ 
+<!--
+<h3>Login to <img src="images/logos/zenloungeplus_logo.png" title="ZenloungePlus"/> & other applications using AD authentication</h3>
+-->
+<div class="loginblock">
+    <div class="logininnerblock">
+	
+			<form id="fm1" class="fm-v clearfix" action="/ZenIs/login;jsessionid=AF03156AE2CB13ABD627536816DA39DE?service=https%3A%2F%2Fzenloungeplus.zensar.com%2Fc%2Fportal%2Flogin%3Fredirect%3D%252F%26refererPlid%3D32817%26p_l_id%3D118176633" method="post">
+                  
+                <!-- Congratulations on bringing CAS online!  The default authentication handler authenticates where usernames equal passwords: go ahead, try it out.  -->
+                       <!-- <label for="username" class="fl-label"><span class="accesskey">U</span>sername:</label> -->
+						
+
+						
+						
+						<input id="username" name="username" class="required" tabindex="1" placeholder="Username" accesskey="n" type="text" value="" size="25" autocomplete="off"/>
+						
+			<div class="clearfix"></div>
+
+                        <!--<label for="password" class="fl-label"><span class="accesskey">P</span>assword:</label>-->
+						
+						<input id="password" name="password" class="required" tabindex="2" placeholder="Password" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+			<div class="clearfix"></div>	
+
+						<input type="hidden" name="lt" value="LT-236069-FMHr9lveLffsv7V7sfCgyQadL24iso" />
+						<input type="hidden" name="execution" value="e1s1" />
+						<input type="hidden" name="_eventId" value="submit" />
+			<div class="button-wrapper">
+			<a class="forgot-link" href="https://adselfservice.zensar.com/showLogin.cc ">Forgot your password <span>?</span></a>
+                        <input name="submit" accesskey="l" class="btn defaultbtn login-btn" value="LOGIN" tabindex="4" type="submit" />
+			</div>		
+	<div class="clearfix"></div>
+            </form>
+
+  </div> 
+
+</div>
+
+<!--
+<div class="logoBlock">
+<h3 class="text-center">One ZenIS Account for all Zensar Internal Applications</h3>-->
+<div class="logo-con">
+<ul class="appLogos">
+<li><a href="https://zenloungeplus.zensar.com/"><img src="images/logos/zenloungeplus_logo.png" title="ZenloungePlus"/></a></li>
+<!-- as per ticket no. 785173
+<li><a href="https://travelportal.zensar.com"><img src="images/logos/travelportal_logo.png" title="TravelPortal" /></a></li>
+ -->
+
+<!-- <li><img src="images/logos/dresscodecompliance_logo.png" title="Dress Code Compliance" /></li> -->
+
+
+<li><a href="https://eforms.zensar.com"><img src="images/logos/eforms-logo.png" title="Eforms"/></a></li>
+<!-- as per ticket no. 785173
+<li><a href="https://epms.zensar.com"><img src="images/logos/epmp-logo.png" title="ePerformance Management Process" /></a></li>
+-->
+
+<!-- as per ticket no. 785173 -->
+<li><a href="https://zendeavor.zensar.com"><img src="images/logos/ZenDeavor_logo.png" title="ZenDeavor" style="height: 23px;
+    margin-bottom: 8px" /></a></li> 
+
+
+
+<!-- <li><img src="images/logos/gatepass-logo.png" title="Gatepass" /></li> -->
+<!-- as per ticket no. 785173
+<li><a href="http://mlp.zensar.com/MLP/"><img src="images/logos/MLP-logo.png" title="My Learning Plan" /></a></li>
+-->
+
+<li><a href="https://znet.zensar.com/PFReport/PFReport.aspx"><img src="images/logos/PFreports-logo.png" title="Provident Fund Reports"/></a></li>
+<li><a href="https://projectdirector.zensar.com/CODIFICATION/"><img src="images/logos/ProjectDirector_logo.png" title="Project Director" /></a></li>
+
+<!-- <li><img src="images/logos/spaceallocation-logo.png" title="Space Allocation System"/></li> -->
+
+<!-- as per ticket no. 785173
+<li><img src="images/logos/Zennovation-Center_logo.png" title="Zennovation" /></li>
+-->
+</ul>
+</div>
+</div>
+</div>
+  
+    
+<div class="footer">
+<p align="center">Copyright &copy; 2018 Zensar Technologies. All rights reserved. Powered by CDAT</p>
+
+</div>
+
+</body>
+</html>

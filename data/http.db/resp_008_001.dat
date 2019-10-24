@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+font-family: Roboto;
+src: url(../fonts/Roboto-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+html, body {
+  height: 100%;
+font-family: 'Roboto', sans-serif;
+}
+body { margin: 0;  font-size: 14px; line-height: 20px; color: #fff; direction: ltr;
+    -webkit-text-size-adjust: none;}
+* {
+  margin: 0;
+}
+.clearfix { *zoom: 1;}
+
+.clearfix { clear:both; }
+.clearfix20 { clear:both; display:block; height:20px; }
+.clearfix50 { clear:both; display:block; height:50px; }
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -28px; 
+}
+.page-wrap.login-con{
+    background: url(../images/logos/main-bg.jpg) no-repeat;
+    background-size: 100% 100%;}
+.welcome{
+	color:#f9a119;
+    font-size: 18px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.footer, .page-wrap:after {
+  height: 26px; 
+}
+/*.topbar { display:block; height:8px; width:100%; background:#002E6E; }*/
+
+#header { display: inline-block; width: 100%; margin: 0 auto;
+/* border-bottom:1px solid #ccc; background:#f1f1f1;
+*/
+ }
+#header .inner { width: 90%; margin:0 auto; padding: 3px 0; }
+.logo { text-align: center;    margin: 50px 0 55px; }
+.logo img{width:130px;}
+.logout .logo { text-align: center; }
+
+h1 { font-weight: normal;
+    text-align: center;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+     font-size: 16px;
+     margin: 0; 
+    margin-bottom: 20px;
+    font-style: italic;
+}
+h2 { color:#fff; font-size:26px; text-align:center; font-weight:normal; display:block; padding: 8px 0; margin: 0; }
+h3 { color: #fff; font-size:18px; text-align:center; font-weight:normal; display:block; padding: 8px 0; margin: 0; }
+h3 img{
+    vertical-align: middle;
+    margin: 0 10px;
+}
+h4 { font-weight: normal; color: #fff; padding: 0; margin: 5px 0;}
+.text-center { text-align:center; }
+.text-left { text-align:left; }
+.main { clear:both; display:block;  } 
+.success { text-align:center; }
+div#msg.success {
+    height: 275px;
+}
+.errors { text-align:center; }
+.errors p { color: #AF4E4E; } 
+.loginblock {     
+	width: 265px;
+    height: auto;
+        padding: 50px 30px;
+    margin: 15px auto;
+    background: rgba(0, 0, 0, 0.31);
+    border-radius: 8px;
+    box-shadow: 0px -2px 2px 2px #080808;
+    border-bottom: 3px solid rgba(152, 152, 152, 0.28);
+}
+
+
+.login-title {
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+.loginblock label { display: inline-block; font-size: 16px; color: #3e383a; margin: 10px 25px 30px 0; }
+input[type=text], input[type=password] {
+    width: 100%;
+    border: 0;
+    padding: 8px 0 8px 30px;
+    background-color: rgba(249, 161, 25);
+    margin: 0 0 5px 0;
+    color: #ffffff;
+    outline: none;
+    background: rgba(249, 161, 25, 0.3)  url(../images/logos/user-icon.png) no-repeat;
+    border-radius: 7px;
+    background-size: 10px;
+    background-position: 10px 9px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=password] {
+background: rgba(249, 161, 25, 0.3)  url(../images/logos/password.png) no-repeat;
+background-size: 10px;
+background-position: 10px 9px;
+box-sizing: border-box;
+}
+input::-webkit-input-placeholder {
+color: #fff !important;
+font-style:italic;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important; 
+font-style:italic; 
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;
+font-style:italic;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #fff !important;  
+font-style:italic;
+}
+.medium  { width:280px; }
+.small  { width:50px; }
+
+.button { background:#3b3b3b; color:#ffffff; display:inline-block; padding:2px 10px; border:0; }
+.margrt { margin-right:7px; }
+.pull-left { float:left; } 
+.pull-right { float:right; }
+.logininnerblock { margin:0 auto; width:100%; padding:0; }
+
+.btn {
+width: 100%;
+display: inline-block;
+padding: 4px 12px;
+margin: 10px auto 0;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.redbtn {
+color: #ffffff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: #632222;
+background-image: -moz-linear-gradient(top, #9b2f2f, #632222);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9b2f2f), to(#632222));
+background-image: -webkit-linear-gradient(top, #9b2f2f, #632222);
+background-image: -o-linear-gradient(top, #9b2f2f, #632222);
+background-image: linear-gradient(to bottom, #9b2f2f, #632222);
+background-repeat: repeat-x;
+border-color: #0044cc #0044cc #002a80;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9b2f2f', endColorstr='#632222', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.defaultbtn { 
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+}
+
+
+.defaultbtn:hover {
+	    border: 1px solid #2f5bb7;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-color: #f9a119;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: linear-gradient(top,#4d90fe,#357ae8);
+}
+a.forgot-link {
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    font-style:italic;
+}
+a.forgot-link span{
+	color:#f9a119;
+}
+.login-btn.defaultbtn {
+   border: 0;
+    color: #330d0d;
+    outline: 0;
+    border-radius: 6px;
+    margin-top: 0;
+    text-shadow: none;
+    background-color: #c17714;
+    background-image: none;
+    width: 90px;
+     float: right;
+    padding: 3px 9px;}
+.logo-con{
+text-align: center;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+.redbtn:hover, .redbtn:focus { background-color: #632222; color: #ffffff; text-decoration: none;}
+
+hr { width: 95%; margin: 25px auto 5px; border: 0;  border-bottom: 1px solid #E0E0E0; }
+
+.footer p { font-size: 12px; color: #ababab; margin: 2px 0; padding: 0; }
+
+.logoBlock { text-align:center; margin-top:40px;}
+.appLogos { display: inline-block;
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+    margin-top: 45px;
+    background: rgba(208, 208, 208, 0.46);
+    width: 100%;
+    text-align: center; 
+}
+.appLogos li { 
+list-style-type: none;
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 4px;
+}
+.appLogos li img { height:42px; 
+-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+.appLogos li img:hover { 	-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+		transform: rotateY(360deg);
+}
+.zenlms { max-height:15px; line-height:32px; margin-top:5px; }
+@media only screen and (max-width: 1028px) {
+
+.logo-con{
+display:block;
+}
+.appLogos li img {
+    height: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+h1 { font-size:1.5em; }	
+.logo-con{
+display:none;
+}
+}
+@media only screen and (max-width: 420px) {
+h1 { font-size:1.3em;}
+
+ 	
+
+}

@@ -1,0 +1,354 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "ua-cpu",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-font-ttf"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "MaxUsedConnections": 20,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Oct-24-2019",
+    "RecordingDuration": 38484,
+    "RecordingTimeStamp": 1571905698,
+    "TotalBytesReceived": 452179,
+    "TotalBytesSent": 11673,
+    "TotalRequests": 20
+  },
+  "HostInfo": [
+    {
+      "DomainName": "zensar.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "183.78.186.81",
+          "IncludeInScript": true,
+          "Name": "zenloungeplus.zensar.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 7,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://zenloungeplus.zensar.com/c/portal/login?redirect=%2F&refererPlid=32817&p_l_id=118176633"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 3,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://zenloungeplus.zensar.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "183.78.186.31",
+          "IncludeInScript": true,
+          "Name": "islogin.zensar.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 0,
+              "EventId": 539,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://islogin.zensar.com/ZenIs/favicon/favicon.ico;jsessionid=AF03156AE2CB13ABD627536816DA39DE"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 377,
+              "HttpStatus": 200,
+              "Size": 157368,
+              "URL": "https://islogin.zensar.com/ZenIs/images/logos/main-bg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 15,
+              "EventId": 345,
+              "HttpStatus": 200,
+              "Size": 6408,
+              "URL": "https://islogin.zensar.com/ZenIs/images/logos/user-icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 339,
+              "HttpStatus": 200,
+              "Size": 4608,
+              "URL": "https://islogin.zensar.com/ZenIs/images/logos/password.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-font-ttf",
+              "DownloadTime": 0,
+              "EventId": 106,
+              "HttpStatus": 200,
+              "Size": 171676,
+              "URL": "https://islogin.zensar.com/ZenIs/fonts/Roboto-Regular.ttf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 80,
+              "HttpStatus": 200,
+              "Size": 6136,
+              "URL": "https://islogin.zensar.com/ZenIs/images/logos/zenloungeplus_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 15,
+              "EventId": 68,
+              "HttpStatus": 200,
+              "Size": 7561,
+              "URL": "https://islogin.zensar.com/ZenIs/images/logos/PFreports-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 8137,
+              "URL": "https://islogin.zensar.com/ZenIs/css/style.css;jsessionid=AF03156AE2CB13ABD627536816DA39DE"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 49,
+              "HttpStatus": 200,
+              "Size": 2790,
+              "URL": "https://islogin.zensar.com/ZenIs/images/logos/ProjectDirector_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 41,
+              "HttpStatus": 200,
+              "Size": 2076,
+              "URL": "https://islogin.zensar.com/ZenIs/images/zensar-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 35,
+              "HttpStatus": 200,
+              "Size": 2084,
+              "URL": "https://islogin.zensar.com/ZenIs/images/logos/eforms-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 20,
+              "HttpStatus": 200,
+              "Size": 9866,
+              "URL": "https://islogin.zensar.com/ZenIs/images/logos/ZenDeavor_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 11,
+              "HttpStatus": 200,
+              "Size": 5060,
+              "URL": "https://islogin.zensar.com/ZenIs/login?service=https%3A%2F%2Fzenloungeplus.zensar.com%2Fc%2Fportal%2Flogin%3Fredirect%3D%252F%26refererPlid%3D32817%26p_l_id%3D118176633"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "191.232.241.54",
+          "IncludeInScript": true,
+          "Name": "urs.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 545,
+              "HttpStatus": 200,
+              "Size": 1024,
+              "URL": "https://urs.microsoft.com/urs.asmx?MSURS-Client-Key=KYqLT/VwQe8wFsiOIImF/A%3d%3d&MSURS-MAC=FMCfo9rVQAs%3d"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 16,
+              "EventId": 90,
+              "HttpStatus": 200,
+              "Size": 2048,
+              "URL": "https://urs.microsoft.com/urs.asmx?MSURS-Client-Key=D2MjnnyktyOC8qzTJLqaTA%3d%3d&MSURS-MAC=jkVPyhrmnPc%3d"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "152.199.19.161",
+          "IncludeInScript": true,
+          "Name": "iecvlist.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 16,
+              "EventId": 293,
+              "HttpStatus": 200,
+              "Size": 26431,
+              "URL": "https://iecvlist.microsoft.com/IE11/1478281996/iecompatviewlist.xml"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.170.3",
+          "IncludeInScript": true,
+          "Name": "fonts.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 323,
+              "HttpStatus": 200,
+              "Size": 20348,
+              "URL": "https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc-.woff"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.223.138",
+          "IncludeInScript": true,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 96,
+              "HttpStatus": 200,
+              "Size": 17408,
+              "URL": "https://fonts.googleapis.com/css?family=Roboto:300"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2.xml
+URL1=https://urs.microsoft.com/urs.asmx?MSURS-Client-Key=D2MjnnyktyOC8qzTJLqaTA%3d%3d&MSURS-MAC=jkVPyhrmnPc%3d
+Total=3
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/xml
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_css.css
+URL2=https://fonts.googleapis.com/css?family=Roboto:300
+FileName3=t2_Roboto-Regular.html
+URL3=https://islogin.zensar.com/ZenIs/fonts/Roboto-Regular.ttf
+[ProtocolInfo]
+ProtocolId=QTWeb

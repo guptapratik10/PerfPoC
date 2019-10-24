@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache,no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Set-Cookie: JSESSIONID=AF03156AE2CB13ABD627536816DA39DE; Path=/ZenIs; Secure; HttpOnly
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html;charset=UTF-8
+Content-Length: 5060
+Date: Thu, 24 Oct 2019 08:28:40 GMT
+Server: XXXXX
+
